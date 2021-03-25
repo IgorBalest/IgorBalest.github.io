@@ -1,4 +1,4 @@
-@charset UTF-8
+@charset UTF-8;
 
 div#interface {
     width: 1200px;
@@ -61,3 +61,4 @@ figure#rosto img{
 	box-shadow: 1px 1px 1px gray;
     border-radius: 100%;
     }
+
