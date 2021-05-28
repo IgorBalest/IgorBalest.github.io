@@ -1,5 +1,9 @@
 @charset UTF-8;
 
+body, h1, h2, h3 {
+    font-family: sans-serif;
+}
+
 div#interface {
     width: 1200px;
     background-color: white;
@@ -9,6 +13,28 @@ div#interface {
 }
 
 /* menu principal */
+
+header#cabecalho {
+    width: 1200px;
+    height: 100px;
+    
+    border: 1px solid black;
+}
+
+figure#idioma_pagina{
+    position: relative;
+    left: 1040px;
+    top: -10px;
+}
+
+figure figcaption{
+    display: none;
+}
+
+figure#idioma_pagina img {
+    height: 5%;
+    width: 5%;
+}
 nav#menu {
     display: block;
 }
@@ -22,7 +48,7 @@ nav#menu ul{
     text-transform: uppercase;
     position: absolute;
     top: -25px;
-    left: 320px;
+    left: 30px;
 }
 
 nav#menu li{
@@ -77,6 +103,7 @@ section#corpo {
     padding: 15px;
     width: 450px;
     text-align: center;
+    border: 1px solid black;
 }
 
 table#dados caption{
@@ -101,8 +128,8 @@ table#dados td{
 }
 
 table#dados td img{
-    height: 30%;
-    width: 55%;
+    weight: 40%;
+    width: 40%;
 }
 
 table#dados td.cd{
@@ -117,9 +144,11 @@ aside#lateral{
     display:block;
     float: right;
     padding: 15px;
-    width: 400px;
+    width: 686px;
+    border: 1px solid black;
 }
 
 footer#rodape {
     clear: both;
+    border: 1px solid black;
 }
